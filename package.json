@@ -1,11 +1,11 @@
 {
-  "name": "probot-nextjs-starter",
+  "name": "Casper",
   "version": "1.0.0",
   "private": true,
-  "description": "A Probot app using NextJS",
-  "author": "Maximous Black <maximousblk@gmail.com>",
+  "description": "A friendly ghost that stalks techphantoms org",
+  "author": "Souvik De <souvikde.ns@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/maximousblk/probot-nextjs-starter",
+  "homepage": "https://github.com/Tech-Phantoms/casper",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
