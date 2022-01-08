@@ -1,0 +1,39 @@
+{
+  "name": "probot-nextjs-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Probot app using NextJS",
+  "author": "Maximous Black <maximousblk@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/maximousblk/probot-nextjs-starter",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "bot:build": "tsc ./src/bot/index.ts --noEmit false --esModuleInterop --outDir ./build",
+    "bot:start": "probot run ./build/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^12.0.7",
+    "probot": "^12.1.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "jest": "^27.4.7",
+    "nock": "^13.2.1",
+    "smee-client": "^1.2.2",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": ">= 14"
+  }
+}
